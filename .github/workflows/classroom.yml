@@ -71,6 +71,15 @@ jobs:
           echo $value
           done
           ls -la
+          export INPUT_LABEL='GittyBitch rocks'
+          export INPUT_LABEL_COLOR='555'
+          export INPUT_COLOR='blue'
+          export INPUT_STATUS='Working'
+          export INPUT_GRADIENT=''
+          export INPUT_STYLE='classic'
+          export INPUT_SCALE='4.0'
+          export INPUT_PATH='myBadge.svg'
+          node dist/badge-action.modern.js
 
       - name: Upload badge as artifact
         uses: actions/upload-artifact@v2
