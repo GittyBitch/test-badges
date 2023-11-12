@@ -78,7 +78,7 @@ jobs:
           export INPUT_GRADIENT=''
           export INPUT_STYLE='classic'
           export INPUT_SCALE='4.0'
-          export INPUT_PATH='myBadge.svg'
+          export INPUT_PATH='.github/badges/myBadge.svg'
           
           node badge-action/dist/badge-action.modern.js
       - name: Upload badge as artifact
@@ -91,8 +91,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add '.github/badges/points.svg'
-          git commit -m "Add/Update badge"
+          git add '.github/badges/points.svg' '.github/badges/myBadge.svg' 
+          git commit -m "Add/Update badges"
         continue-on-error: true
       - name: Push badge commit
         uses: ad-m/github-push-action@master
