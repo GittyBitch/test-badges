@@ -44,7 +44,7 @@ if __name__ == "__main__":
             hint =  "<span style='color:red;'>"
             hint += "WICHTIG: Committet/Pusht eure Lösung bitte nicht in den .github-Ordner.<br/> "
             hint += "ACHTUNG: Die Badges unten werden nicht genauso schnell aktualisiert wie die Pipeline (Actions)<br/>" 
-            hint += "Für Übersetzungen der Aufgabe in eine andere Sprache: [Google Translate](https://translate.google.de)<br/>"
+            hint += "Für Übersetzungen der Aufgabe in eine andere Sprache: <https://translate.google.de> <br/>"
             hint += "</span"
             readme_file.write(f"<p>{hint} </p>\n")
             write_horizontal_line(readme_file)
