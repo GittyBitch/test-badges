@@ -41,7 +41,7 @@ if __name__ == "__main__":
             write_intro(readme_file, "Aufgabe", introduction)
             readme_file.write(f"* {total_points} Punkte\n* {timeframe}\n")
             write_horizontal_line(readme_file)
-            hint =  "<span style="color:red;">"
+            hint =  "<span style='color:red;'>"
             hint += "WICHTIG: Committet/Pusht eure Lösung bitte nicht in den .github-Ordner. "
             hint += "ACHTUNG: Die Badges unten werden nicht genauso schnell aktualisiert wie die Pipeline (Actions)" 
             hint += "Für Übersetzungen der Aufgabe in eine andere Sprache: [Google Translate](https://translate.google.de/)"

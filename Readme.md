@@ -4,7 +4,7 @@
 
 ---
 # Aufgabe
-[![GitHub Classroom Workflow](https://github.com/GittyBitch/test-badges/actions/workflows/classroom.yml/badge.svg)](https://github.com/GittyBitch/test-badges/actions/workflows/classroom.yml) [![Points badge](../../blob/badges/.github/badges/points.svg)](../../actions) 
+[![GitHub Classroom Workflow](https://github.com/GittyBitch/est-badges/actions/workflows/classroom.yml/badge.svg)](https://github.com/GittyBitch/est-badges/actions/workflows/classroom.yml) [![Points badge](../../blob/badges/.github/badges/points.svg)](../../actions) 
 
 In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Skript, das Hello World ausgibt. 
  Folgt den Anweisungen. Unter Hilfe findet ihr Links, die mit dem Wort Spickzettel markiert sind. Drückt diese bei Bedarf, falls ihr nicht weiterkommt. 
@@ -13,7 +13,7 @@ In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Skript, das Hello World a
 * 15 Minuten (Viel Erfolg!)
 
 ---
-<p>Ladet eure Lösung bitte nicht in den .github-Ordner.  </p>
+<p><span style='color:red;'>WICHTIG: Committet/Pusht eure Lösung bitte nicht in den .github-Ordner. ACHTUNG: Die Badges unten werden nicht genauso schnell aktualisiert wie die Pipeline (Actions)Für Übersetzungen der Aufgabe in eine andere Sprache: [Google Translate](https://translate.google.de/)</span </p>
 
 ---
 <ol>
