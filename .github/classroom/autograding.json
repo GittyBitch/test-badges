@@ -1,5 +1,5 @@
 {
-  "repo": "GittyBitch/test-badges",
+  "repo": "GittyBitch/testbadges",
   "introduction": "In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Skript, das Hello World ausgibt. \n Folgt den Anweisungen. Unter Hilfe findet ihr Links, die mit dem Wort Spickzettel markiert sind. Drückt diese bei Bedarf, falls ihr nicht weiterkommt. \n",
   "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/HelloWorld.svg/512px-HelloWorld.svg.png",
   "timeframe": "15 Minuten (Viel Erfolg!)",
@@ -28,10 +28,10 @@
     },
     {
       "specs": {
-        "title": "Erstelle ein Shebang in der Datei"
+        "title": "Erstelle einen Shebang für ein Bash Script in der Datei"
       },
       "name": "checking for shebang",
-      "feedback": "shebang could not be found in the mini.sh",
+      "feedback": "bash shebang could not be found in the mini.sh",
       "urls": [
         "https://wiki.ubuntuusers.de/Shebang_f%C3%BCr_Shellskripte/"
       ],
