@@ -61,7 +61,7 @@ jobs:
         uses: emibcn/badge-action@v1
         with:
           LABEL: 'Points'
-          STATUS: ${{ steps.autograder.outputs.percentage }}
+          STATUS: ${{ steps.autograder.outputs.points }}
           COLOR: cyan
           path: '.github/badges/points.svg'
       - name: creating test badges
