@@ -13,7 +13,7 @@ In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Skript, das Hello World a
 * 15 Minuten (Viel Erfolg!)
 
 ---
-<p><span style='color:red;'>WICHTIG: Committet/Pusht eure Lösung bitte nicht in den .github-Ordner. ACHTUNG: Die Badges unten werden nicht genauso schnell aktualisiert wie die Pipeline (Actions)Für Übersetzungen der Aufgabe in eine andere Sprache: [Google Translate](https://translate.google.de/)</span </p>
+<p><span style='color:red;'>WICHTIG: Committet/Pusht eure Lösung bitte nicht in den .github-Ordner.<br/> ACHTUNG: Die Badges unten werden nicht genauso schnell aktualisiert wie die Pipeline (Actions)<br/>Für Übersetzungen der Aufgabe in eine andere Sprache: [Google Translate](https://translate.google.de)<br/></span </p>
 
 ---
 <ol>
