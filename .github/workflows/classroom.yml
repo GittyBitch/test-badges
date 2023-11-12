@@ -116,7 +116,7 @@ jobs:
           branch: badges
           force: true
       - name: Check on failures
-        if: steps.autograder.outcome == 'failure'
+        if: ${{ steps.autograder.outcome == 'failure' }}
         run: echo "check the autograding feature/feedback step: not all tests passed" && exit 1
 
   upgrade:
