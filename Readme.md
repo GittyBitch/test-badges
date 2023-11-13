@@ -19,7 +19,7 @@ In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Skript, das Hello World a
 
 ---
 <ol>
-[![Test Status](../../blob/badges/.github/badges/points.svg)](../../actions)
+[![Points badge](../../blob/badges/.github/badges/points.svg)](../../actions) 
 <li> Erstelle ein mini.sh Datei (20 Punkte)</li>
 Hilfe: 
 <ul><li><a href="https://wiki.ubuntuusers.de/Shell/Bash-Skripting-Guide_f%C3%BCr_Anf%C3%A4nger/">Spickzettel</a></li></ul> 
