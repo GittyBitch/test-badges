@@ -1,3 +1,3 @@
-echo "Hello Worl1d"
+echo "Hello World"
 exit
 
