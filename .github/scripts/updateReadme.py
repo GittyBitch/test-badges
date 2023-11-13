@@ -55,7 +55,7 @@ if __name__ == "__main__":
             points = test.get("points")
             title = have_specs.get("title")
             statusURL=f"[![Test Status](../../blob/badges/.github/badges/testStatus_{counter}.svg)](../../actions)"
-            readme_file.write(f"{statusURL}  \n")
+            readme_file.write(f"\n{statusURL}  \n")
             readme_file.write(f"<li> {title} ({points} Punkte)</li>\n")
             
                 
