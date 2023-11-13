@@ -5,6 +5,7 @@ jobs:
   call-classroom-workflow:
     uses: GittyBitch/tabot-workflows/.github/workflows/classroom.yml@main
     with:
+      log-level: 'debug'
       some-input: 1000 # Replace with actual inputs
     secrets:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Replace with actual secrets
