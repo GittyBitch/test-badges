@@ -19,7 +19,7 @@ In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Skript, das Hello World a
 
 ---
 
-[![Points badge](../../blob/badges/.github/badges/points.svg)](../../actions)
+[![Points badge](../../blob/badges/.github/badges/testStatus_1.svg)](../../actions)
 <ol> 
 <li> Erstelle ein mini.sh Datei (20 Punkte)</li>
 Hilfe: 
