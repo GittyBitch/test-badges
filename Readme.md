@@ -25,14 +25,14 @@ Hilfe:
 
 ---
 
-[![Test Status](../../blob/badges/.github/badges/testStatus_1.svg)](../../actions)  
+[![Test Status](../../blob/badges/.github/badges/testStatus_2.svg)](../../actions)  
 <li> Erstelle ein Shebang in der Datei (5 Punkte)</li>
 Hilfe: 
 <ul><li><a href="https://wiki.ubuntuusers.de/Shebang_f%C3%BCr_Shellskripte/">Spickzettel</a></li></ul> 
 
 ---
 
-[![Test Status](../../blob/badges/.github/badges/testStatus_1.svg)](../../actions)  
+[![Test Status](../../blob/badges/.github/badges/testStatus_3.svg)](../../actions)  
 <li> Schreibe das Skript so, dass es "Hello World" auf STDOUT ausgibt (5 Punkte)</li>
 Hilfe: 
 <ul><li><a href="https://www.cyberciti.biz/faq/hello-world-bash-shell-script/">Spickzettel</a></li></ul> 
