@@ -1,13 +1,3 @@
-on:
-  workflow_call:
-    inputs:
-      log-level:
-        required: true
-        type: string
-    secrets:
-      GITHUB_TOKEN:
-        required: true
-
 jobs:
   call-classroom-workflow:
     uses: GittyBitch/tabot-workflows/.github/workflows/classroom.yml@main
