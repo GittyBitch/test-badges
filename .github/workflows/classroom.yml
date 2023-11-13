@@ -11,10 +11,11 @@ permissions:
   contents: write
 
 jobs:
+  wflow:
+    uses: GittyBitch/tabot-workflows/.github/workflows/classroom.yml@main
   setup:
     if: "(! contains(github.event.head_commit.message, 'Automatic setup'))" # && (github.event.head_commit.message == '')" # To prevent potential infinite loops
     runs-on: ubuntu-latest
-    uses: GittyBitch/tabot-workflows/.github/workflows/classroom.yml@main
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
