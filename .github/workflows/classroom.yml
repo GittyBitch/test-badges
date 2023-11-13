@@ -69,7 +69,7 @@ jobs:
           git clone https://github.com/emibcn/badge-action.git
           counter=1
           for value in $(echo '${{ steps.autograder.outputs.jsonresults}}' | jq -r '.[]'); do
-          if ["$value" == "SUCCESS]; then
+          if ["$value" == "SUCCESS"]; then
            COLOR="green"
           else
            COLOR="red"
