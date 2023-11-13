@@ -18,12 +18,11 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-
+      uses: GittyBitch/tabot-workflows@main
     - name: Update content if needed
       env:
         CI: true # This ensures GitHub Actions treats shell commands' errors as fatal
         REPO_NAME: ${{ github.repository }}
-      uses: GittyBitch/tabot-workflows@main
       run: |
         IS_SETUP=$(jq -r .repo .github/classroom/autograding.json)
         
