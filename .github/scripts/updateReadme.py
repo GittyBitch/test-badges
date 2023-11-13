@@ -57,6 +57,7 @@ if __name__ == "__main__":
             statusURL=f"[![Test Status](../../blob/badges/.github/badges/testStatus_{counter}.svg)](../../actions)"
             readme_file.write(f"\n{statusURL}  \n")
             readme_file.write(f"<li> {title} ({points} Punkte)</li>\n")
+            counter += 1
             
                 
             if "list" in have_specs:
