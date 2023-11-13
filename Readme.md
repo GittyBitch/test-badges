@@ -13,7 +13,7 @@ In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Skript, das Hello World a
 * 15 Minuten (Viel Erfolg!)
 
 ---
-<p><span style='color:red;'>WICHTIG: Committet/Pusht eure Lösung bitte nicht in den .github-Ordner.<br/> ACHTUNG: Die Badges unten werden nicht genauso schnell aktualisiert wie die Pipeline (Actions)<br/>Für Übersetzungen der Aufgabe in eine andere Sprache: [Google Translate](https://translate.google.de)<br/></span </p>
+<p><span style='color:red;'>WICHTIG: Committet/Pusht eure Lösung bitte nicht in den .github-Ordner.<br/> ACHTUNG: Die Badges unten werden nicht genauso schnell aktualisiert wie die Pipeline (Actions)<br/>Für Übersetzungen der Aufgabe in eine andere Sprache: <https://translate.google.de> <br/></span </p>
 
 ---
 <ol>
@@ -26,7 +26,7 @@ Hilfe:
 ---
 
 [![Test Status](../../blob/badges/.github/badges/testStatus_2.svg)](../../actions)  
-<li> Erstelle ein Shebang in der Datei (5 Punkte)</li>
+<li> Erstelle einen Shebang für ein Bash Script in der Datei (5 Punkte)</li>
 Hilfe: 
 <ul><li><a href="https://wiki.ubuntuusers.de/Shebang_f%C3%BCr_Shellskripte/">Spickzettel</a></li></ul> 
 
