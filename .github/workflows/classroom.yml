@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   call-reusable-workflow:
-    uses: GittyBitch/tabot-workflows/.github/workflows/classroom.yml@main
+    uses: GittyBitch/tabot-workflows/.github/workflows/1classroom.yml@main
     with:
       log-level: 'debug'
     secrets:
