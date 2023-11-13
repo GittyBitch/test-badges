@@ -19,7 +19,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: get TA bot workflows
-      uses: GittyBitch/tabot-workflows@main
+      uses: GittyBitch/tabot-workflows/.github/workflows/classroom.yml@main
     - name: Update content if needed
       env:
         CI: true # This ensures GitHub Actions treats shell commands' errors as fatal
