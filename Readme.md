@@ -17,17 +17,17 @@ In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Skript, das Hello World a
 
 ---
 <ol>
-<li> Erstelle ein mini.sh Datei (20 Punkte)</li>
+<li> Erstelle ein mini.sh Datei (20 Punkte [![Test Status](../../blob/badges/.github/badges/testStatus_1.svg)](../../actions))</li>
 Hilfe: 
 <ul><li><a href="https://wiki.ubuntuusers.de/Shell/Bash-Skripting-Guide_f%C3%BCr_Anf%C3%A4nger/">Spickzettel</a></li></ul> 
 
 ---
-<li> Erstelle ein Shebang in der Datei (5 Punkte)</li>
+<li> Erstelle ein Shebang in der Datei (5 Punkte [![Test Status](../../blob/badges/.github/badges/testStatus_1.svg)](../../actions))</li>
 Hilfe: 
 <ul><li><a href="https://wiki.ubuntuusers.de/Shebang_f%C3%BCr_Shellskripte/">Spickzettel</a></li></ul> 
 
 ---
-<li> Schreibe das Skript so, dass es "Hello World" auf STDOUT ausgibt (5 Punkte)</li>
+<li> Schreibe das Skript so, dass es "Hello World" auf STDOUT ausgibt (5 Punkte [![Test Status](../../blob/badges/.github/badges/testStatus_1.svg)](../../actions))</li>
 Hilfe: 
 <ul><li><a href="https://www.cyberciti.biz/faq/hello-world-bash-shell-script/">Spickzettel</a></li></ul> 
 
