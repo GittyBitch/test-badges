@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "Hello World" # none 232111
+echo "Hello World" # none 232
 exit 
 
