@@ -18,6 +18,7 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+    - name: get TA bot workflows
       uses: GittyBitch/tabot-workflows@main
     - name: Update content if needed
       env:
