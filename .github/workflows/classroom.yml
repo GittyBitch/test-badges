@@ -1,0 +1,13 @@
+name: Main Workflow
+
+on: [push]
+
+jobs:
+  call-reusable-workflow:
+    uses: GittyBitch/tabot-workflows/.github/workflows/classroom.yml@main
+    with:
+      log-level: 'debug'
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
