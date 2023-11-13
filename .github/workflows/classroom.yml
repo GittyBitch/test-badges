@@ -78,7 +78,7 @@ jobs:
           export INPUT_SCALE='4.0'
           export INPUT_PATH='.github/badges/testStatus_1.svg'
           node badge-action/dist/badge-action.modern.js
-          counter = (expr $counter + 1)
+          counter=(expr $counter + 1)
       - name: Upload badge as artifact
         uses: actions/upload-artifact@v2
         with:
