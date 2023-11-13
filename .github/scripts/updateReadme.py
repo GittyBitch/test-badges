@@ -49,11 +49,13 @@ if __name__ == "__main__":
         if int(maxTestIndex) > 0:
             tests = tests[:int(maxTestIndex)]
             print("Slicing tests", tests)
+        counter = 1
         for test in tests:
             have_specs = test.get("specs")
             points = test.get("points")
             title = have_specs.get("title")
-            readme_file.write(f"<li> {title} ({points} Punkte)</li>\n")
+            statusURL=f"[![Test Status](../../blob/badges/.github/badges/testStatus_{counter}.svg)](../../actions)"
+            readme_file.write(f"<li> {title} ({points} Punkte {statusURL})</li>\n")
             
                 
             if "list" in have_specs:
