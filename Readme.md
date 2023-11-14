@@ -1,4 +1,4 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/HelloWorld.svg/512px-HelloWorld.svg.png" alt="In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Skript, das Hello World ausgibt. 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/HelloWorld.svg/512px-HelloWorld.svg.png" alt="In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Bash-Skript, das Hello World via STDOUT in die Console ausgibt. 
  Folgt den Anweisungen. Unter Hilfe findet ihr Links, die mit dem Wort Spickzettel markiert sind. Drückt diese bei Bedarf, falls ihr nicht weiterkommt. 
 " width="300"/>
 
@@ -6,7 +6,7 @@
 # Aufgabe
 [![GitHub Classroom Workflow](https://github.com/GittyBitch/test-badges/actions/workflows/classroom.yml/badge.svg)](https://github.com/GittyBitch/test-badges/actions/workflows/classroom.yml) [![Points badge](../../blob/badges/.github/badges/points.svg)](../../actions) 
 
-In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Skript, das Hello World ausgibt. 
+In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Bash-Skript, das Hello World via STDOUT in die Console ausgibt. 
  Folgt den Anweisungen. Unter Hilfe findet ihr Links, die mit dem Wort Spickzettel markiert sind. Drückt diese bei Bedarf, falls ihr nicht weiterkommt. 
 
 * 30 Punkte
