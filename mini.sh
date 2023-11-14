@@ -1,3 +1,4 @@
-echo "Hello World" # none
+#!/bin/bash
+echo "Hello World!" # none
 exit
 
