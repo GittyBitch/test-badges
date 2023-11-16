@@ -1,4 +1,4 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/HelloWorld.svg/512px-HelloWorld.svg.png" alt="In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Bash-Skript, das Hello World via STDOUT in die Console ausgibt. 
+<img src="https://3.bp.blogspot.com/-VdxnwsQC46k/WUE-wWtj3VI/AAAAAAAAbbE/EsX2rnx6sRkz6AZ3ojgSrSsvKubbyjyQwCLcBGAs/s1600/Sqlite.jpg" alt="In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Bash-Skript, das Hello World via STDOUT in die Console ausgibt. 
  Folgt den Anweisungen. Unter Hilfe findet ihr Links, die mit dem Wort Spickzettel markiert sind. Drückt diese bei Bedarf, falls ihr nicht weiterkommt. 
 " width="300"/>
 
@@ -9,7 +9,7 @@
 In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Bash-Skript, das Hello World via STDOUT in die Console ausgibt. 
  Folgt den Anweisungen. Unter Hilfe findet ihr Links, die mit dem Wort Spickzettel markiert sind. Drückt diese bei Bedarf, falls ihr nicht weiterkommt. 
 
-* 30 Punkte
+* 40 Punkte
 * 15 Minuten (Viel Erfolg!)
 
 ---
@@ -34,6 +34,20 @@ Hilfe:
 
 [![Test Status](../../blob/badges/.github/badges/testStatus_3.svg)](../../actions)  
 <li> Schreibe das Skript so, dass es "Hello World" auf STDOUT ausgibt (5 Punkte)</li>
+Hilfe: 
+<ul><li><a href="https://www.cyberciti.biz/faq/hello-world-bash-shell-script/">Spickzettel</a></li></ul> 
+
+---
+
+[![Test Status](../../blob/badges/.github/badges/testStatus_4.svg)](../../actions)  
+<li> Erstelle eine Datei namens create.sql im Stammverzeichnis dieses Repos (5 Punkte)</li>
+Hilfe: 
+<ul><li><a href="https://wiki.ubuntuusers.de/Shell/Bash-Skripting-Guide_f%C3%BCr_Anf%C3%A4nger/">Spickzettel</a></li></ul> 
+
+---
+
+[![Test Status](../../blob/badges/.github/badges/testStatus_5.svg)](../../actions)  
+<li> Erzeuge eine Tabelle namens Benutzer mit den Spalten name und nachname, jeweils VARCHAR(255) (5 Punkte)</li>
 Hilfe: 
 <ul><li><a href="https://www.cyberciti.biz/faq/hello-world-bash-shell-script/">Spickzettel</a></li></ul> 
 
