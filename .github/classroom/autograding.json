@@ -1,76 +1,9 @@
 {
-  "repo": "GittyBitch/test-badges",
-  "introduction": "In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Bash-Skript, das Hello World via STDOUT in die Console ausgibt. \n Folgt den Anweisungen. Unter Hilfe findet ihr Links, die mit dem Wort Spickzettel markiert sind. Drückt diese bei Bedarf, falls ihr nicht weiterkommt. \n",
+  "repo": "GittyBitch/testdges",
+  "introduction": "In dieser ersten kleinen Mini SQL-Aufgabe erstellt ihr ein SQL-Skript für SQLite, das Hello Worleine Tabelle mit zwei Spalten erstellen soll. \n Folgt bitte genau den Anweisungen. Unter Hilfe findet ihr Links, die mit dem Wort Spickzettel markiert sind. Benutzt diese bei Bedarf, falls ihr nicht weiterkommt. \n",
   "logo_url": "https://3.bp.blogspot.com/-VdxnwsQC46k/WUE-wWtj3VI/AAAAAAAAbbE/EsX2rnx6sRkz6AZ3ojgSrSsvKubbyjyQwCLcBGAs/s1600/Sqlite.jpg",
   "timeframe": "15 Minuten (Viel Erfolg!)",
   "tests": [
-    {
-      "specs": {
-        "title": "Erstelle ein mini.sh Datei"
-      },
-      "name": "checking for mini.sh script",
-      "feedback": "mini.sh script could not be found",
-      "urls": [
-        "https://wiki.ubuntuusers.de/Shell/Bash-Skripting-Guide_f%C3%BCr_Anf%C3%A4nger/"
-      ],
-      "keywords": [
-        "bash",
-        "script",
-        "linux"
-      ],
-      "type": "",
-      "run": "test -f mini.sh",
-      "file": "",
-      "output": "",
-      "comparison": "",
-      "points": 20,
-      "timeout": 120
-    },
-    {
-      "specs": {
-        "title": "Erstelle einen Shebang für ein Bash Script in der Datei"
-      },
-      "name": "checking for shebang",
-      "feedback": "bash shebang could not be found in the mini.sh",
-      "urls": [
-        "https://wiki.ubuntuusers.de/Shebang_f%C3%BCr_Shellskripte/"
-      ],
-      "keywords": [
-        "bash",
-        "shebang",
-        "linux"
-      ],
-      "type": "",
-      "run": "grep -q '^#!/bin/bash' mini.sh",
-      "file": "",
-      "output": "",
-      "comparison": "",
-      "points": 5,
-      "timeout": 120
-    },
-    {
-      "specs": {
-        "title": "Schreibe das Skript so, dass es \"Hello World\" auf STDOUT ausgibt"
-      },
-      "name": "create a script that prints \"Hello World\"",
-      "feedback": "The script is not printing \"Hello World\". Please check the script",
-      "urls": [
-        "https://www.cyberciti.biz/faq/hello-world-bash-shell-script/"
-      ],
-      "keywords": [
-        "bash",
-        "echo",
-        "stdout",
-        "linux"
-      ],
-      "type": "",
-      "run": "bash mini.sh",
-      "file": "",
-      "output": "Hello World",
-      "comparison": "exact",
-      "points": 5,
-      "timeout": 120
-    },
     {
       "specs": {
         "title": "Erstelle eine Datei namens create.sql im Stammverzeichnis dieses Repos"
@@ -113,6 +46,29 @@
       "comparison": "exact",
       "points": 5,
       "timeout": 20
+    },
+    {
+      "specs": {
+        "title": "Editiere create.sql um Deiner neuen Tabelle einen neuen Eintrag hinzuzufügen, nutze 'Hans' als den Vornamen und 'Dampf' als den Nachnamen."
+      },
+      "name": "checking for 'Hans' and 'Dampf' entries in table (vorname/nachname respectively)",
+      "feedback": "Could not find an entry matching the requirements. Please check the script",
+      "urls": [
+        "https://www.cyberciti.biz/faq/hello-world-bash-shell-script/"
+      ],
+      "keywords": [
+        "sqlite3",
+        "create table"
+      ],
+      "type": "sqlite3",
+      "dbName": "temporary.db",
+      "run": "SELECT EXISTS (SELECT 1 FROM Benutzer WHERE vorname = 'Hans' AND nachname = 'Dampf') AS entry_exists;",
+      "file": "create.sql",
+      "output": "1",
+      "comparison": "exact",
+      "points": 5,
+      "timeout": 20
     }
+ 
   ]
 }

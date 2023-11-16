@@ -4,3 +4,5 @@ CREATE TABLE IF NOT EXISTS Benutzer (
 	    nachname VARCHAR(255)
 	);
 
+INSERT INTO Benutzer (vorname, nachname) VALUES ('Hans', 'Dampf');
+
