@@ -1,4 +1,4 @@
-<img src="https://3.bp.blogspot.com/-VdxnwsQC46k/WUE-wWtj3VI/AAAAAAAAbbE/EsX2rnx6sRkz6AZ3ojgSrSsvKubbyjyQwCLcBGAs/s1600/Sqlite.jpg" alt="In dieser ersten kleinen Mini SQL-Aufgabe erstellt ihr ein SQL-Skript für SQLite, das Hello Worleine Tabelle mit zwei Spalten erstellen soll. 
+<img src="https://3.bp.blogspot.com/-VdxnwsQC46k/WUE-wWtj3VI/AAAAAAAAbbE/EsX2rnx6sRkz6AZ3ojgSrSsvKubbyjyQwCLcBGAs/s1600/Sqlite.jpg" alt="In dieser ersten kleinen Mini SQL-Aufgabe erstellt ihr ein SQL-Skript für SQLite, das eine Tabelle mit zwei Spalten erstellen soll. 
  Folgt bitte genau den Anweisungen. Unter Hilfe findet ihr Links, die mit dem Wort Spickzettel markiert sind. Benutzt diese bei Bedarf, falls ihr nicht weiterkommt. 
 " width="300"/>
 
@@ -6,7 +6,7 @@
 # Aufgabe
 [![GitHub Classroom Workflow](https://github.com/GittyBitch/test-badges/actions/workflows/classroom.yml/badge.svg)](https://github.com/GittyBitch/test-badges/actions/workflows/classroom.yml) [![Points badge](../../blob/badges/.github/badges/points.svg)](../../actions) 
 
-In dieser ersten kleinen Mini SQL-Aufgabe erstellt ihr ein SQL-Skript für SQLite, das Hello Worleine Tabelle mit zwei Spalten erstellen soll. 
+In dieser ersten kleinen Mini SQL-Aufgabe erstellt ihr ein SQL-Skript für SQLite, das eine Tabelle mit zwei Spalten erstellen soll. 
  Folgt bitte genau den Anweisungen. Unter Hilfe findet ihr Links, die mit dem Wort Spickzettel markiert sind. Benutzt diese bei Bedarf, falls ihr nicht weiterkommt. 
 
 * 15 Punkte
