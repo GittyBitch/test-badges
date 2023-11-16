@@ -94,7 +94,7 @@
     },
     {
       "specs": {
-        "title": "Erzeuge eine Tabelle namens Benutzer mit den Spalten name und nachname, jeweils VARCHAR(255)"
+        "title": "Editiere create.sql und erzeuge so eine Tabelle namens Benutzer mit den Spalten name und nachname, jeweils VARCHAR(255)"
       },
       "name": "create a table named Benutzer with two columns of type varchar(255) named name and nachname",
       "feedback": "Could not find a table matching the requirements. Please check the script",
